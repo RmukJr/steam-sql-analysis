@@ -6,10 +6,8 @@ Cílem bylo procvičit práci s daty, tvorbu analytických dotazů, kontrolu vý
 ## Použité nástroje
 
 - MySQL
-- phpMyAdmin
 - Power BI
 - Excel / CSV
-- GitHub
 
 ## Analytické otázky
 
@@ -35,7 +33,9 @@ Dataset obsahuje mimo jiné tyto údaje:
 - datum vydání,
 - vývojáře a vydavatele,
 - podporované platformy,
-- kategorie, žánry a uživatelské tagy,
+- kategorie, 
+- žánry,
+- uživatelské tagy,
 - cenu,
 - počet pozitivních a negativních recenzí,
 - průměrnou a mediánovou dobu hraní,
@@ -47,7 +47,7 @@ Analýza nepracuje s přesným počtem prodaných kopií ani s aktuálním počt
 
 - **Průměrné hodnocení her** – průměr podílu pozitivních recenzí vypočítaného samostatně pro každou hru.
 - **Celkový podíl pozitivních recenzí** – součet pozitivních recenzí vydělený celkovým počtem recenzí ve sledované skupině. Hry s větším počtem recenzí mají na výsledek větší vliv.
-- **Free hra** – hra s cenou rovnou 0. Toto označení vychází pouze ze vstupní ceny ve zdrojovém datasetu; hra může dále obsahovat mikrotransakce, placený obsah nebo jiné formy monetizace.
+- **Free hra** – hra s cenou rovnou 0. Toto označení vychází pouze ze vstupní ceny ve zdrojovém datasetu. Hra může dále obsahovat mikrotransakce, placený obsah nebo jiné formy monetizace.
 - **Paid hra** – hra s cenou vyšší než 0.
 - **Celkový počet recenzí** – součet pozitivních a negativních recenzí.
 
@@ -61,7 +61,7 @@ Ovlivňuje cenový model hodnocení hry?
 
 ### Proč?
 
-Steam nabízí placené(paid) i bezplatné(free) hry. Analýza proto ověřuje, zda má cenový model výrazný vliv na spokojenost hráčů, nebo zda hodnocení závisí především na kvalitě samotné hry.
+Steam nabízí placené (Paid) i bezplatné (Free) hry. Analýza proto ověřuje, zda má cenový model výrazný vliv na spokojenost hráčů, nebo zda hodnocení závisí především na kvalitě samotné hry.
 
 ### Cíl
 
